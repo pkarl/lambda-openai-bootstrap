@@ -1,9 +1,9 @@
 # lambda-openai-bootstrap
 
-#### 🚨 **CAUTION
-
-**: This is beta software that generates un-auth'd API gateway endpoints which use OpenAI APIs. Do not share those
-endpoints with anyone. 🚨 For now, I encourage you to destroy the infra after use. Command below.
+> ### 🚨 **CAUTION** 🚨
+> This is beta software that generates un-auth'd API gateway endpoints which use OpenAI APIs. Do not share those
+> endpoints with anyone.
+> For now, I encourage you to destroy the infra after use. Command below.
 
 > TODO: add auth
 
