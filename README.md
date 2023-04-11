@@ -7,6 +7,8 @@
 
 > TODO: add auth
 
+> TODO: add github action(s)
+
 > TODO: add message queue + trigger
 
 ## Prerequisites
@@ -58,7 +60,7 @@ aws configure
 # and Default output format
 ```
 
-## Usage
+## Usage (Local)
 
 ### 0. [optional] Customize the lambda function(s)
 
@@ -109,6 +111,8 @@ When you no longer need the resources, run the following command to delete them:
 ```bash
 cdk destroy
 ```
+
+## Usage (GitHub Actions)
 
 ## FAQ
 
