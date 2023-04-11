@@ -1,5 +1,14 @@
 # lambda-openai-bootstrap
 
+#### 🚨 **CAUTION
+
+**: This is beta software that generates un-auth'd API gateway endpoints which use OpenAI APIs. Do not share those
+endpoints with anyone. 🚨 For now, I encourage you to destroy the infra after use. Command below.
+
+> TODO: add auth
+
+> TODO: add message queue + trigger
+
 ## Prerequisites
 
 1. [AWS Account](https://aws.amazon.com/)
@@ -73,14 +82,14 @@ the way).
 python app.py
 ```
 
-### 2. Deploy the AWS infrastructure using CDK
+### 3. Deploy the AWS infrastructure using CDK
 
 ```bash
 cdk bootstrap
 cdk deploy
 ```
 
-### Test the deployed Lambda function(s)
+### 4. Test the deployed Lambda function(s)
 
 After the deployment is complete, you will see the API Gateway URL(s) in the terminal output. Use these URLs to make
 HTTP requests and test the Lambda functions.
@@ -92,6 +101,14 @@ $ http post https://000000000A.execute-api.us-east-1.amazonaws.com/prod/ prompt=
 ```
 
 > 👆 uses httpie (https://httpie.io/)
+
+### 5. Clean up / Destroy resources
+
+When you no longer need the resources, run the following command to delete them:
+
+```bash
+cdk destroy
+```
 
 ## FAQ
 
