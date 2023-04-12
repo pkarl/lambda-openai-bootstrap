@@ -26,7 +26,7 @@
 ### 1. Clone this repo
 
 ```bash
-$ git clone https://github.com/your-username/lambda-openai-bootstrap.git`
+$ git clone https://github.com/pkarl/lambda-openai-bootstrap.git`
 $ cd lambda-openai-bootstrap
 ```
 
