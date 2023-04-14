@@ -6,11 +6,9 @@
   "directories": {
     "test": "tests"
   },
-  "dependencies": {
-    "constructs": "^3.4.293"
-  },
   "devDependencies": {
-    "@aws-cdk/aws-secretsmanager": "^1.198.1"
+    "@aws-cdk/aws-secretsmanager": "^1.198.1",
+    "constructs": "^10.1.310"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
