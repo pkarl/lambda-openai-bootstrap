@@ -12,3 +12,4 @@ node_modules/*
 layer/python/*
 
 .idea/*
+package-lock.json

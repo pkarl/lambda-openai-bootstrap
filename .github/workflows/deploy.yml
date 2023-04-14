@@ -20,7 +20,7 @@ jobs:
       - name: Install JS dependencies
         run: |
           npm install -g aws-cdk
-          npm ci
+          npm install
 
       - name: Set up Python
         uses: actions/setup-python@v2

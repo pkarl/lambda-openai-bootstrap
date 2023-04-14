@@ -7,8 +7,7 @@
     "test": "tests"
   },
   "devDependencies": {
-    "@aws-cdk/aws-secretsmanager": "^1.198.1",
-    "constructs": "^10.1.310"
+    "@aws-cdk/aws-secretsmanager": "^1.198.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
