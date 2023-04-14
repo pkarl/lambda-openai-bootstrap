@@ -17,10 +17,9 @@ jobs:
         with:
           node-version: 14
 
-      - name: Install dependencies
+      - name: Install JS dependencies
         run: |
           npm ci
-          npm run build
 
       - name: Set up Python
         uses: actions/setup-python@v2
