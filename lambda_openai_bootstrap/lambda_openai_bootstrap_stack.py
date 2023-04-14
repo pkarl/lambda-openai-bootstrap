@@ -57,6 +57,9 @@ class LambdaOpenaiBootstrapStack(Stack):
             }
         )
 
+        ### PUT ADDITIONAL LAMBDA FUNCTIONS HERE, IF APPLICABLE ###
+        ### DON'T FORGET TO ADD CORRESPONDING API GATEWAY CONNECTIONS ###
+
         # API Gateway without IAM authentication
         api = apigw.LambdaRestApi(
             self, "OpenApiChatApi",
