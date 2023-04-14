@@ -42,3 +42,7 @@ jobs:
           source .venv/bin/activate
           npx cdk bootstrap
           npx cdk deploy --require-approval never
+
+      - name: Destroy / Cleanup
+        run:
+          npx cdk destroy
