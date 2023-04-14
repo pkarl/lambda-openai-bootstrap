@@ -45,4 +45,4 @@ jobs:
 
       - name: Destroy / Cleanup
         run:
-          npx cdk destroy
+          npx cdk destroy --force
