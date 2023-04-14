@@ -1,5 +1,28 @@
 {
+  "name": "lambda-openai-bootstrap",
+  "version": "1.0.0",
+  "description": "> ### 🚨 **CAUTION** 🚨 > This is beta software that generates un-auth'd API gateway endpoints which use OpenAI APIs. Do not share those > endpoints with anyone. > For now, I encourage you to destroy the infra after use. Command below.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
   "dependencies": {
+    "constructs": "^3.4.293"
+  },
+  "devDependencies": {
     "@aws-cdk/aws-secretsmanager": "^1.198.1"
-  }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pkarl/lambda-openai-bootstrap.git"
+  },
+  "author": "Pete Karl II",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pkarl/lambda-openai-bootstrap/issues"
+  },
+  "homepage": "https://github.com/pkarl/lambda-openai-bootstrap#readme"
 }
